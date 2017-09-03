@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+.wrapper {
+
+	background-color: #F0F2F7;
+	width:100%;
+
+}
+
+.heading {
+	height: 200px;
+	background-color:#4b67a1;
+	color: white;
+	padding-left: 250;
+	padding-top: 10;
+	
+
+
+
+
+}
+
+.left_content,.right_content {
+display: inline-block;
+width: 50%;
+float: left;
+text-align: center;
+
+}
