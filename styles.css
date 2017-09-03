@@ -15,16 +15,12 @@ body{
 	padding-left: 250;
 	padding-top: 10;
 	
-
-
-
-
 }
 
 .left_content,.right_content {
-display: inline-block;
-width: 50%;
-float: left;
-text-align: center;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	text-align: center;
 
 }
