@@ -8,37 +8,82 @@
 
 	<div class = "wrapper">
 
-
 		<div class = "heading">
-			<h1>facebook</h1>
-			<button type="button" style="background-color:#4b67a1">login</button>
-			<div>
-				<form>
-					Email or phone: <br>
-					<input type="text" name="Email or phone" style="color: black">
-					password: <br>
-					<input type="password" name="password">
+			<div class="left">
+				<h1>facebook</h1>
+			</div>
+			<div class="right">
+				<form class="loginForm">
+					<div>
+						<p>Email or Phone:</p>
+						<input type="text" name="Email or Phone">
+					</div>
+					<div class="pdnghor">
+						<p>Password</p>	
+						<p><input type="Password" name="Password"></p>
+						<p class="frgtpswd">forget password</p>					
+					</div>
+					<div >
+						<button class="loginBtn" type="button" value="Log in">Log In </button>
+					</div>
+
+
 				</form>
 			</div>
 		</div>
 
+		<div class="content" style="padding-right: 182px">
 
-		<div class="content">
 			<div class="left_content">
-				<p>Facebook helps you connect and shares with the people in your life</p>
-				<img src="./fb_people_image.png" alt="facebook" width="500px">
+				<h3>Facebook helps you connect and shares with the <br> people in your life</h3>
+				<img src="./fb_people_image.png" alt="facebook" width="650px">
 			</div>
 
 			<div class="right_content">
 				<h1>Create an account</h1>
-				<p>it's free and always will be</p>
+				<h4>it's free and always will be</h4>
+				<div class="info">
+					<form class="signupForm">
+						<input type="text" name="First name" placeholder="First name" style="width: 159px">
+
+						<input type="text" name="surname" placeholder="surname"> <br><br>
+						<input type="text" name="number or email" placeholder="Mobile number or email address" style="width: 100%"><br><br>
+						<input type="password" name="password" placeholder="New password" style="width: 100%"><br>
+						
+						<div class="">
+							<div class="info">
+								<p><label for=Birthday>Birthday</label></p>
+								<select class="day" name="Birthday">
+									<option>1</option>
+									<option>2</option>
+								</select> 
+								<select class="month" name="Birthday">
+									<option>04</option>
+									<option>09</option>
+								</select>
+								<select class="year" name="Birthday">
+									<option>1994</option>
+									<option>1996</option>
+								</select>
+							</div>
+							<div class="info" style="width: 45%; padding-top: 45px; padding-left: 11px;">Why do I need to provide my date of birth?</div>
+						</div>
+						<div class="gender" style="clear: both;">
+							<form>
+								<input type="radio" name="gender" value="Female">Female
+								<input type="radio" name="gender" value="Male">Male
+							</form>
+						</div>
+						<p style="font-size: 12px">By clicking Create an account, you agree to our Terms and confirm that you have read our Data Policy, including our Cookie Use Policy. You may receive SMS message notifications from Facebook and can opt out at any time.</p><br>
+						<div>
+							<button type="button" class="lastbutton">Create an account</button>
+						</div>
+					</form>
+				</div>
+
 			</div>
 		</div>
 	</div>
-
-
-
-
 
 </body>
 </html>
